@@ -3,11 +3,11 @@
 ET::$languageInfo["Japanese"] = array(
 	"locale" => "ja-JP",
 	"name" => "Japanese",
-	"description" => "esoTalk Core Japanese language file.",
+	"description" => "esoTalk_JP",
 	"version" => "1.0.0 - Redistributable package",
 	"author" => "PzF_X",
 	"authorEmail" => "jp_minecraft@yahoo.co.jp",
-	"authorURL" => "http://example.com",
+	"authorURL" => "http://euphonium.esy.es",
 	"license" => "CC BY-NC-SA 4.0 International Licence"
 );
 
