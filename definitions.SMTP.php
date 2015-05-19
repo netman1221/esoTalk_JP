@@ -1,13 +1,13 @@
 <?php
-//File Copyright PzF_X 2014.
+//File Copyright Akagi 2014.
 ET::$languageInfo["Japanese"] = array(
 	"locale" => "ja-JP",
 	"name" => "Japanese",
-	"description" => "esoTalk SMTP Japanese language file.",
+	"description" => "esoTalk_JP",
 	"version" => "1.0.0 - Redistributable package",
-	"author" => "PzF_X",
-	"authorEmail" => "jp_minecraft@yahoo.co.jp",
-	"authorURL" => "http://example.com",
+	"author" => "Akagi.",
+	"authorEmail" => "akg_crafter@yahoo.co.jp",
+	"authorURL" => "http://akagi-memo.blogspot.jp",
 	"license" => "CC BY-NC-SA 4.0 International Licence"
 );
 
