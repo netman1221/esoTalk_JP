@@ -1,5 +1,5 @@
 <?php
-//File Copyright PzF_X 2014.
+//File Copyright Akagi 2014.
 ET::$languageInfo["Japanese"] = array(
 	"locale" => "ja-JP",
 	"name" => "Japanese",
