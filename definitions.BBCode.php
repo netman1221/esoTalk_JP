@@ -1,20 +1,20 @@
 <?php
-//File Copyright PzF_X 2014.
+//File Copyright Akagi. 2014.
 ET::$languageInfo["Japanese"] = array(
 	"locale" => "ja-JP",
 	"name" => "Japanese",
-	"description" => "esoTalk BBCode Japanese language file.",
+	"description" => "esoTalk_JP",
 	"version" => "1.0.0 - Redistributable package",
-	"author" => "PzF_X",
-	"authorEmail" => "jp_minecraft@yahoo.co.jp",
-	"authorURL" => "http://example.com",
+	"author" => "Akagi.",
+	"authorEmail" => "akg_crafter@yahoo.co.jp",
+	"authorURL" => "http://akagi-memo.blogspot.jp",
 	"license" => "CC BY-NC-SA 4.0 International Licence"
 );
 
 $definitions["Code"] = "コード";
 $definitions["Image"] = "画像";
 $definitions["Link"] = "リンク";
-$definitions["Strike"] = "Strike";
+$definitions["Strike"] = "打ち消し線";
 $definitions["Header"] = "ヘッダ";
 $definitions["Italic"] = "斜体";
 $definitions["Bold"] = "太字";
