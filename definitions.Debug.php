@@ -12,6 +12,6 @@ ET::$languageInfo["Japanese"] = array(
 );
 
 $definitions["MySQL queries"] = "MySQL クエリ";
-$definitions["Page loaded in %s seconds"] = "%表示にかかった時間: s秒";
+$definitions["Page loaded in %s seconds"] = "表示にかかった時間: %s秒";
 $definitions["POST + GET + FILES information"] = "POST + GET + FILES 情報";
 $definitions["SESSION + COOKIE information"] = "SESSION + COOKIE 情報";
