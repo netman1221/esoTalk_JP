@@ -1,10 +1,9 @@
 <?php
-//File Copyright Akagi 2014.
 ET::$languageInfo["Japanese"] = array(
 	"locale" => "ja-JP",
 	"name" => "Japanese",
 	"description" => "esoTalk_JP",
-	"version" => "1.0.0 - Redistributable package",
+	"version" => "1.0.1",
 	"author" => "Akagi.",
 	"authorEmail" => "akg_crafter@yahoo.co.jp",
 	"authorURL" => "http://akagi-memo.blogspot.jp",
@@ -35,18 +34,18 @@ $definitions["%s and %s"] = "%s と %s";
 $definitions["%s can view this conversation."] = "閲覧可能: %s";
 $definitions["%s changed %s's group to %s."] = "%s changed %s's group to %s.";
 $definitions["%s changed your group to %s."] = "%s があなたのグループを %s に変更しました。";
-$definitions["%s conversation"] = "%s 投稿";
-$definitions["%s conversations"] = "%s 投稿";
+$definitions["%s conversation"] = "%s のトピック";
+$definitions["%s conversations"] = "%s のトピック";
 $definitions["%s has registered and is awaiting approval."] = "%s は認証を待っています。";
 $definitions["%s invited you to %s."] = "%s はあなたを %s へ招待しました。";
 $definitions["%s joined the forum."] = "%s がフォーラムに参加しました。";
 $definitions["%s mentioned you in %s."] = "%s mentioned you in %s.";
-$definitions["%s post"] = "%s 投稿";
+$definitions["%s post"] = "%s つの投稿";
 $definitions["%s posted %s"] = "%s が %sに投稿";
 $definitions["%s posted in %s."] = "%s が %s に投稿しました。";
-$definitions["%s posts"] = "%s 投稿";
-$definitions["%s reply"] = "%s 返信";
-$definitions["%s replies"] = "%s 返信";
+$definitions["%s posts"] = "%s つの投稿";
+$definitions["%s reply"] = "%s つの返信";
+$definitions["%s replies"] = "%s つの返信";
 $definitions["%s Settings"] = "%s 設定";
 $definitions["%s started the conversation %s."] = "%s は %s を始めました。";
 $definitions["%s will be able to view this conversation."] = "表示可能: %s";
@@ -75,7 +74,7 @@ $definitions["Automatically star conversations that I reply to"] = "返信";
 $definitions["Avatar"] = "アバター";
 
 $definitions["Back to channels"] = "チャンネルに戻る";
-$definitions["Back to conversation"] = "投稿に戻る";
+$definitions["Back to conversation"] = "トピックに戻る";
 $definitions["Back to member"] = "メンバー";
 $definitions["Back to members"] = "メンバー";
 $definitions["Back to search"] = "一覧";
@@ -85,7 +84,7 @@ $definitions["Base URL"] = "URL";
 $definitions["Bold"] = "Bold";
 $definitions["By %s"] = "By %s";
 
-$definitions["Can suspend/unsuspend members"] = "メンバーの活動を停止/解除出来ます";
+$definitions["Can suspend/unsuspend members"] = "メンバーをサスペンド、または解除出来ます";
 $definitions["Cancel"] = "キャンセル";
 $definitions["Change"] = "変更";
 $definitions["Change %s's Permissions"] = " %sの権限を変更";
@@ -108,10 +107,10 @@ $definitions["Click on a member's name to remove them."] = "削除するユー�
 $definitions["Close registration"] = "登録を締め切る";
 $definitions["Confirm password"] = "パスワードを再入力";
 $definitions["Controls"] = "編集";
-$definitions["Conversation"] = "投稿";
-$definitions["Conversations participated in"] = "参加中の投稿";
+$definitions["Conversation"] = "トピック";
+$definitions["Conversations participated in"] = "参加中のトピック";
 $definitions["Conversations started"] = "投稿を始めた数";
-$definitions["Conversations"] = "投稿";
+$definitions["Conversations"] = "トピック";
 $definitions["Copy permissions from"] = "この権限をコピー:";
 $definitions["Create Channel"] = "チャンネルを作成";
 $definitions["Create Group"] = "グループを作成";
@@ -190,7 +189,7 @@ $definitions["group.member"] = "Member";
 $definitions["group.member.plural"] = "Members";
 $definitions["group.Moderator"] = "Moderator";
 $definitions["group.Moderator.plural"] = "Moderators";
-$definitions["group.suspended"] = "活動を禁止";
+$definitions["group.suspended"] = "サスペンド";
 $definitions["Groups can be used to categorize members and give them certain privileges."] = "各グループごとに権限の設定ができます。";
 $definitions["Groups"] = "グループ";
 $definitions["Guests can view the:"] = "ゲストはこれらが閲覧可能です:";
@@ -361,9 +360,9 @@ $definitions["Subscribe"] = "お気に入りにする";
 $definitions["Subscribed"] = "お気に入り";
 $definitions["Subscription"] = "お気に入り";
 $definitions["Success!"] = "完了";
-$definitions["Suspend member"] = "メンバーを差し止め";
-$definitions["Suspend members."] = "メンバーを差し止め";
-$definitions["Suspend"] = "差し止め";
+$definitions["Suspend member"] = "メンバーをサスペンド";
+$definitions["Suspend members."] = "メンバーをサスペンド";
+$definitions["Suspend"] = "サスペンド";
 
 $definitions["To get started with your forum, you might like to:"] = "To get started with your forum, you might like to:";
 
@@ -377,7 +376,7 @@ $definitions["Unsticky"] = "固定にしない";
 $definitions["Unsubscribe new users by default"] = "デフォルトで新しいユーザーの配信停止を行う";
 $definitions["Unsubscribe"] = "お気に入りを解除";
 $definitions["Unsubscribed"] = "お気に入りを解除しました。";
-$definitions["Unsuspend member"] = "メンバーの停止を解除";
+$definitions["Unsuspend member"] = "メンバーのサスペンドを解除";
 $definitions["Unsuspend"] = "解除しました。";
 $definitions["Until someone replies"] = "Until someone replies";
 $definitions["Untitled conversation"] = "タイトルなし";
@@ -399,7 +398,7 @@ $definitions["viewingPosts"] = "<b>%s-%s</b> of %s posts";
 
 $definitions["Warning"] = "警告:";
 $definitions["Welcome to esoTalk!"] = "esoTalkへようこそ!";
-$definitions["We've logged you in and taken you straight to your forum's administration panel. You're welcome."] = "We've logged you in and taken you straight to your forum's administration panel. You're welcome.";
+$definitions["We've logged you in and taken you straight to your forum's administration panel. You're welcome."] = "We've logged you in and taken you straight to your forum's administration panel.どういたしまして。";
 $definitions["Write a reply..."] = "返信する...";
 
 $definitions["Yes"] = "はい";
@@ -425,7 +424,7 @@ $definitions["message.connectionError"] = "esoTalkはMySQLサーバに接続で�
 $definitions["message.conversationDeleted"] = "トピックを削除しました";
 $definitions["message.conversationNotFound"] = "ページが削除されたか、移動した可能性があります。";
 $definitions["message.cookieAuthenticationTheft"] = "セキュリティ上の理由から、ログイン状態のcookieを利用してのログインができませんでした。 もう一度手動でログインしてみてください。";
-$definitions["message.deleteChannelHelp"] = "Woah, hold up there! If you delete this チャンネル, there'll be no way to get it back. Unless you build a time machine. But, uh, there'll be no <em>easy</em> way to get it back. All of the conversations in this チャンネル can be moved to another of your choice.";
+$definitions["message.deleteChannelHelp"] = "わぁ、ちょっと注目してください! このチャンネルを削除すると、それは元に戻ることはありません。タイムマシンを作る場合を除いて。あー、でも、それらが元通りになるのは<em>簡単ではありません</em>。チャンネル内のすべてのトピックは、あなたの選択した別のものへ移動します。";
 $definitions["message.emailConfirmed"] = "いえい! Eメールによる認証が完了しました! さっそく<a href='".URL("conversation/start")."'>トピックを始めませんか</a>?";
 $definitions["message.emailDoesntExist"] = "メールアドレスが一致しません";
 $definitions["message.emailNotYetConfirmed"] = "そのメールアドレスでログインする前に、メールアドレスを確認する必要があります！ 確認メールを受け取っていない場合は、迷惑メールフォルダを確認するか、<a href='%s'>ここをクリックして確認メールを再送信</a>してください。";
@@ -452,7 +451,7 @@ $definitions["message.greaterPHPVersionRequired"] = "<strong>Your server must ha
 $definitions["message.incorrectLogin"] = "ユーザ名が正しくありません!";
 $definitions["message.incorrectPassword"] = "パスワードが正しくありません!";
 $definitions["message.installerAdminHelp"] = "esoTalk will use the following information to set up your administrator account on your forum.";
-$definitions["message.installerFilesNotWritable"] = "<strong>esoTalk cannot write to the following files/folders: %s.</strong> To resolve this, you must navigate to these files/folders in your FTP client and <code>chmod</code> them to <code>0777</code>.";
+$definitions["message.installerFilesNotWritable"] = "<strong>esoTalkは %s に書き込むことが出来ません。</strong> これを解決するには、FTPなどを通じて<code>chmod 0777</code>と設定してみてください。";
 $definitions["message.installerWelcome"] = "Set up your fat-free forum but by filling out the form below.<br>If you have any trouble, get help on the <a href='%s' target='_blank'>esoTalk website</a>.";
 $definitions["message.invalidChannel"] = "選択したチャンネルは不正です!";
 $definitions["message.invalidEmail"] = "有効なメールアドレスではありません";
@@ -464,7 +463,7 @@ $definitions["message.loginToParticipate"] = "トピックを始め、返信や�
 $definitions["message.logInToReply"] = "<a href='%1\$s' class='link-login'>ログイン</a> または <a href='%2\$s' class='link-join'>登録</a>して返信...";
 $definitions["message.logInToSeeAllConversations"] = "<a href='".URL("user/login")."' class='link-login'>Log in</a> to expose some channels/conversations that may be hidden to guests.";
 $definitions["message.memberNotFound"] = "うーん、この名前のメンバーはいないようです...";
-$definitions["message.memberNoPermissionView"] = "That member can't be added because they don't have permission to view the チャンネル that this conversation is in.";
+$definitions["message.memberNoPermissionView"] = "トピックを閲覧する権限を持っていないため、そのメンバーの追加はできません。";
 $definitions["message.nameTaken"] = "入力した名前は、既に登録されているか予約済みの名前です。";
 $definitions["message.newSearchResults"] = "検索結果に新たなアクティビティがありました。 <a href='%s'>更新</a>";
 $definitions["message.noActivity"] = "%s はまだこのフォーラムで活動を行っていません!";
@@ -485,7 +484,7 @@ $definitions["message.passwordEmailSent"] = "パスワードの再設定リン�
 $definitions["message.passwordsDontMatch"] = "パスワードが一致しません";
 $definitions["message.passwordTooShort"] = "パスワードが短すぎます";
 $definitions["message.pluginCannotBeEnabled"] = "<em>%s</em>は有効にできません: %s";
-$definitions["message.pluginDependencyNotMet"] = "To enable this plugin, you must have %s version %s installed and enabled.";
+$definitions["message.pluginDependencyNotMet"] = "このプラグインを有効化するには、 %s (バージョン: %s )をインストールし、有効化してください。";
 $definitions["message.pluginUninstalled"] = "アンインストールしました。";
 $definitions["message.postNotFound"] = "Not Found! この項目は見つかりませんでした。";
 $definitions["message.postTooLong"] = "あなたの投稿はあまりに長いです!本当に長いです! 投稿は%s文字以内に制限されています。 もう一度言います、長いです!";
@@ -499,13 +498,13 @@ $definitions["message.safeModeWarning"] = "<strong>セーフモードが有効�
 $definitions["message.searchAllConversations"] = "もう一度検索をしてみてください。";
 $definitions["message.setNewPassword"] = "完了! パスワードを設定してください...";
 $definitions["message.skinUninstalled"] = "アンインストールしました";
-$definitions["message.suspended"] = "ああ! フォーラムのモデレータがあなたのアカウントを<strong>凍結</strong>してしまいました! アカウントの凍結が解除されるまであなたはここで何かを行うことはできません。";
+$definitions["message.suspended"] = "ああ! フォーラムのモデレータがあなたのアカウントを<strong>サスペンド</strong>してしまいました! アカウントの凍結が解除されるまであなたはここで何かを行うことはできません。";
 $definitions["message.suspendMemberHelp"] = "Suspending %s will prevent them from replying to conversations, starting conversations, and viewing private conversations. They will effectively have the same permissions as a guest.";
 $definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br>? To overwrite this installation, click 'Install' again. <strong>All data will be lost.</strong><br>? To create a new installation alongside this one, change the table prefix.";
 $definitions["message.unsuspendMemberHelp"] = "Unsuspending %s will enable them to participate in conversations on this forum again.";
 $definitions["message.upgradeSuccessful"] = "更新が完了しました。";
 $definitions["message.waitForApproval"] = "Before you can start using your newly-created account, an administrator must approve your account. We'll send you an email when you've been approved!";
-$definitions["message.waitToReply"] = "You must wait at least %s seconds between starting or replying to conversations. Take a deep breath and try again.";
+$definitions["message.waitToReply"] = "会話などをするには残り %s 秒間待たなければなりません。大きく深呼吸をし、再度お試しください。";
 $definitions["message.waitToSearch"] = "%s秒間お待ちください...";
 
 
@@ -533,7 +532,7 @@ $definitions["email.post.body"] = "<p><strong>%1\$s</strong> has replied to a co
 
 // Emails.
 $definitions["email.header"] = "<p>%s さん、こんにちは!</p>";
-$definitions["email.footer"] = "<p>(If you don't want to receive any emails like this again, you can <a href='%s'>change your notification preferences</a>.)</p>";
+$definitions["email.footer"] = "<p>(もしメールを受けとりたくない場合は、<a href='%s'>通知設定の変更をお試しください。</a>。)</p>";
 
 $definitions["email.confirmEmail.subject"] = "%1\$s さん、メールアドレスを確認してください!";
 $definitions["email.confirmEmail.body"] = "p>このメールアドレスが '%1\$s' の登録時に利用されました。</p><p>次のリンクをクリックすることでアカウントが有効化されます:<br>%2\$s <br>もし、このメールに覚えがない場合は無視してください。</p>";
