@@ -1,10 +1,9 @@
 <?php
-//File Copyright Akagi. 2014.
 ET::$languageInfo["Japanese"] = array(
 	"locale" => "ja-JP",
 	"name" => "Japanese",
 	"description" => "esoTalk_JP",
-	"version" => "1.0.0 - Redistributable package",
+	"version" => "1.0.0",
 	"author" => "Akagi.",
 	"authorEmail" => "akg_crafter@yahoo.co.jp",
 	"authorURL" => "http://akagi-memo.blogspot.jp",
