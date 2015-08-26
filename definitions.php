@@ -194,8 +194,8 @@ $definitions["Groups can be used to categorize members and give them certain pri
 $definitions["Groups"] = "グループ";
 $definitions["Guests can view the:"] = "ゲストはこれらが閲覧可能です:";
 
-$definitions["Header"] = "ヘッダ";
-$definitions["Header color"] = "ヘッダの色";
+$definitions["Header"] = "ヘッダー";
+$definitions["Header color"] = "ヘッダーの色";
 $definitions["Heads Up!"] = "注意:";
 $definitions["Hide"] = "隠す";
 $definitions["Home page"] = "ホームページ";
@@ -211,10 +211,10 @@ $definitions["Installed Skins"] = "インストールされたスキン:";
 $definitions["Installed skins"] = "インストールされたスキン:";
 $definitions["is %s"] = "is %s";
 
-$definitions["Joined"] = "接続";
-$definitions["just now"] = "現在";
+$definitions["Joined"] = "接続済み";
+$definitions["just now"] = "ちょうど今";
 
-$definitions["Keep me logged in"] = "ログインを保持する";
+$definitions["Keep me logged in"] = "ログインしたままにする";
 $definitions["<strong>Keep this member's posts.</strong> All of this member's posts will remain intact, but will show [deleted] as the author."] = "<strong>このトピックを保持</strong>";
 
 $definitions["label.draft"] = "草案";
@@ -248,7 +248,7 @@ $definitions["Member List"] = "メンバー一覧";
 $definitions["Member privacy"] = "メンバーのプライバシー";
 $definitions["Members"] = "メンバー";
 $definitions["Members Allowed to View this Conversation"] = "閲覧を許可するメンバー:";
-$definitions["Members Awaiting Approval"] = "Members Awaiting Approval";
+$definitions["Members Awaiting Approval"] = "認証待ちメンバー";
 $definitions["Members Online"] = "メンバーがオンライン";
 $definitions["Members who are part of this group can be listed by searching for the group name in the member list."] = "Members who are part of this group can be listed by searching for the group name in the member list.";
 $definitions["Mobile skin"] = "携帯端末用のスキン";
@@ -258,9 +258,9 @@ $definitions["Mute conversation"] = "トピックを無視する";
 $definitions["MySQL database"] = "MySQLのデータベース";
 $definitions["MySQL host address"] = "MySQLのホストのアドレス";
 $definitions["MySQL password"] = "MySQLのパスワード";
-$definitions["MySQL queries"] = "MySQLのクエリ";
+$definitions["MySQL queries"] = "MySQLのクエリー";
 $definitions["MySQL table prefix"] = "テーブルの接頭辞";
-$definitions["MySQL username"] = "MySQLのユーザネーム";
+$definitions["MySQL username"] = "MySQLのユーザー名";
 $definitions["MySQL version"] = "MySQLのバージョン";
 
 $definitions["Name"] = "名前";
@@ -322,8 +322,8 @@ $definitions["Reset"] = "リセット";
 
 $definitions["Save Changes"] = "変更を保存";
 $definitions["Save Draft"] = "下書きを保存";
-$definitions["Search conversations..."] = "トピックを検索...";
-$definitions["Search within this conversation..."] = "検索...";
+$definitions["Search conversations..."] = "トピックを検索";
+$definitions["Search within this conversation..."] = "検索";
 $definitions["Search"] = "検索";
 $definitions["See the private conversations I've had with %s"] = "See the private conversations I've had with %s";
 $definitions["Set a New Password"] = "新しいパスワードを設定";
@@ -366,7 +366,7 @@ $definitions["Suspend"] = "サスペンド";
 
 $definitions["To get started with your forum, you might like to:"] = "To get started with your forum, you might like to:";
 
-$definitions["Unapproved"] = "認められていない";
+$definitions["Unapproved"] = "非承認";
 $definitions["Unhide"] = "隠さない";
 $definitions["Uninstall"] = "アンインストール";
 $definitions["Unlock"] = "ロックを解除";
@@ -408,7 +408,7 @@ $definitions["Your current password"] = "現在のパスワード";
 // Messages.
 $definitions["message.404"] = "404 Not Found";
 $definitions["message.accountNotYetApproved"] = "管理者はまだアカウントを有効にしていません。";
-$definitions["message.ajaxDisconnected"] = "サーバとの伝達に失敗しました。 しばらくたってから<a href='javascript:jQuery.ETAjax.resumeAfterDisconnection()'>もう一度試すか</a>、<a href='' onclick='window.location.reload();return false'>ページを更新します</a>。";
+$definitions["message.ajaxDisconnected"] = "サーバーとの通信に失敗しました。 しばらくたってから<a href='javascript:jQuery.ETAjax.resumeAfterDisconnection()'>もう一度試すか</a>、<a href='' onclick='window.location.reload();return false'>ページを更新します</a>。";
 $definitions["message.ajaxRequestPending"] = "ちょっと! まだ一部の処理をしているので、あなたがこのページから移動すると変更が破棄される可能性があります！";
 $definitions["message.avatarError"] = "アバターをアップロードする際に問題が発生しました。 利用できる形式(.jpg, .png, .gif)とファイルサイズを確認してください。";
 $definitions["message.cannotDeleteLastChannel"] = "待ってください、最後のチャンネルは削除できません! どこに投稿すればいいのですか?";
@@ -461,7 +461,7 @@ $definitions["message.languageUninstalled"] = "アンインストールしまし
 $definitions["message.locked"] = "このトピックは<strong>ロック</strong>されています。返信することはできません。";
 $definitions["message.loginToParticipate"] = "トピックを始め、返信や投稿をするためには、ログインしてください。";
 $definitions["message.logInToReply"] = "<a href='%1\$s' class='link-login'>ログイン</a> または <a href='%2\$s' class='link-join'>登録</a>して返信...";
-$definitions["message.logInToSeeAllConversations"] = "<a href='".URL("user/login")."' class='link-login'>Log in</a> to expose some channels/conversations that may be hidden to guests.";
+$definitions["message.logInToSeeAllConversations"] = "<a href='".URL("user/login")."' class='link-login'>ログイン</a> to expose some channels/conversations that may be hidden to guests.";
 $definitions["message.memberNotFound"] = "うーん、この名前のメンバーはいないようです...";
 $definitions["message.memberNoPermissionView"] = "トピックを閲覧する権限を持っていないため、そのメンバーの追加はできません。";
 $definitions["message.nameTaken"] = "入力した名前は、既に登録されているか予約済みの名前です。";
@@ -503,7 +503,7 @@ $definitions["message.suspendMemberHelp"] = "Suspending %s will prevent them fro
 $definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br>? To overwrite this installation, click 'Install' again. <strong>All data will be lost.</strong><br>? To create a new installation alongside this one, change the table prefix.";
 $definitions["message.unsuspendMemberHelp"] = "Unsuspending %s will enable them to participate in conversations on this forum again.";
 $definitions["message.upgradeSuccessful"] = "更新が完了しました。";
-$definitions["message.waitForApproval"] = "Before you can start using your newly-created account, an administrator must approve your account. We'll send you an email when you've been approved!";
+$definitions["message.waitForApproval"] = "新規アカウントの使用を開始する前に、Administratorはアカウントの承認をしなければなりません。承認が完了した際には、Eメールが送信されます!";
 $definitions["message.waitToReply"] = "会話などをするには残り %s 秒間待たなければなりません。大きく深呼吸をし、再度お試しください。";
 $definitions["message.waitToSearch"] = "%s秒間お待ちください...";
 
@@ -519,7 +519,7 @@ $definitions["email.approved.subject"] = "%1\$s さん、あなたのアカウ�
 $definitions["email.approved.body"] = "<p>Your account on %1\$s has been approved.</p><p>Visit the following link to log in and start talking:<br>%2\$s</p>";
 
 $definitions["email.forgotPassword.subject"] = "%1\$s さん、パスワードを忘れましたか?";
-$definitions["email.forgotPassword.body"] = "<p>Someone (hopefully you!) has submitted a forgotten password request for your account on the forum '%1\$s'. If you do not wish to change your password, just ignore this email and nothing will happen.</p><p>However, if you did forget your password and wish to set a new one, visit the following link:<br>%2\$s</p>";
+$definitions["email.forgotPassword.body"] = "<p>誰か(あなたであることを願います!)が'%1\$s'において、パスワードの再設定を要求しました。パスワードの変更を望まない場合は、Eメールを無視すれば何も起こりません。</p><p>しかし、もしパスワードを忘れて設定し直したい場合は、このURLより再設定してください:<br>%2\$s</p>";
 
 $definitions["email.mention.subject"] = "[Mentioned by %1\$s] %2\$s";
 $definitions["email.mention.body"] = "<p><strong>%1\$s</strong> mentioned you in a post in the conversation <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>To view the post in context, check out the following link:<br>%4\$s</p>";
@@ -541,7 +541,7 @@ $definitions["email.approved.subject"] = "%1\$s さん、あなたのアカウ�
 $definitions["email.approved.body"] = "<p>Your account on %1\$s has been approved.</p><p>Visit the following link to log in and start talking:<br>%2\$s</p>";
 
 $definitions["email.forgotPassword.subject"] = "%1\$s さん、パスワードを忘れましたか?";
-$definitions["email.forgotPassword.body"] = "<p>Someone (hopefully you!) has submitted a forgotten password request for your account on the forum '%1\$s'. If you do not wish to change your password, just ignore this email and nothing will happen.</p><p>However, if you did forget your password and wish to set a new one, visit the following link:<br>%2\$s</p>";
+$definitions["email.forgotPassword.body"] = "<p>誰か(あなたであることを願います!)が'%1\$s'において、パスワードの再設定を要求しました。パスワードの変更を望まない場合は、Eメールを無視すれば何も起こりません。</p><p>しかし、もしパスワードを忘れて設定し直したい場合は、このURLより再設定してください:<br>%2\$s</p>";
 
 $definitions["email.mention.subject"] = "[Mentioned by %1\$s] %2\$s";
 $definitions["email.mention.body"] = "<p><strong>%1\$s</strong> mentioned you in a post in the conversation <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>To view the post in context, check out the following link:<br>%4\$s</p>";
