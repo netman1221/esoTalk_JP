@@ -461,7 +461,7 @@ $definitions["message.languageUninstalled"] = "アンインストールしまし
 $definitions["message.locked"] = "このトピックは<strong>ロック</strong>されています。返信することはできません。";
 $definitions["message.loginToParticipate"] = "トピックを始め、返信や投稿をするためには、ログインしてください。";
 $definitions["message.logInToReply"] = "<a href='%1\$s' class='link-login'>ログイン</a> または <a href='%2\$s' class='link-join'>登録</a>して返信...";
-$definitions["message.logInToSeeAllConversations"] = "<a href='".URL("user/login")."' class='link-login'>ログイン</a> to expose some channels/conversations that may be hidden to guests.";
+$definitions["message.logInToSeeAllConversations"] = "いくつかのチャンネルがゲストには非表示になっている可能性があります。 <a href='".URL("user/login")."' class='link-login'>ログイン</a> してもっと会話を見る！";
 $definitions["message.memberNotFound"] = "うーん、この名前のメンバーはいないようです...";
 $definitions["message.memberNoPermissionView"] = "トピックを閲覧する権限を持っていないため、そのメンバーの追加はできません。";
 $definitions["message.nameTaken"] = "入力した名前は、既に登録されているか予約済みの名前です。";
