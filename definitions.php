@@ -92,7 +92,7 @@ $definitions["Change avatar"] = "アバターを変更";
 $definitions["Change Channel"] = "チャンネルを変更";
 $definitions["Change channel"] = "チャンネルを変更";
 $definitions["Change username"] = "ユーザネームを変更";
-$definitions["Change Password or Email"] = "パスワードかメールアドレスを変更";
+$definitions["Change Password or Email"] = "登録情報の変更";
 $definitions["Change Password"] = "パスワードを変更";
 $definitions["Change password"] = "パスワードを変更";
 $definitions["Change permissions"] = "権限を変更";
@@ -109,7 +109,7 @@ $definitions["Confirm password"] = "パスワードを再入力";
 $definitions["Controls"] = "編集";
 $definitions["Conversation"] = "トピック";
 $definitions["Conversations participated in"] = "参加中のトピック";
-$definitions["Conversations started"] = "投稿を始めた数";
+$definitions["Conversations started"] = "トピックを立てた数";
 $definitions["Conversations"] = "トピック";
 $definitions["Copy permissions from"] = "この権限をコピー:";
 $definitions["Create Channel"] = "チャンネルを作成";
@@ -141,7 +141,7 @@ $definitions["Edit Group"] = "グループを編集";
 $definitions["Edit member groups"] = "メンバーのグループを編集";
 $definitions["Edit your profile"] = "自分のプロフィールを編集";
 $definitions["Edit"] = "編集";
-$definitions["Edited %s by %s"] = "%sは%sによって編集されました";
+$definitions["Edited %s by %s"] = "%sに%sが編集しました";
 $definitions["Editing permissions"] = "権限を編集中...";
 $definitions["Email me when I'm added to a private conversation"] = "非公開のトピックをした時、メールアドレスに通知する";
 $definitions["Email me when someone mentions me in a post"] = "自分宛てに返信が来た時、メールアドレスに通知する";
@@ -181,15 +181,15 @@ $definitions["Give this group the 'moderate' permission on all existing channels
 $definitions["Global permissions"] = "全体の権限";
 $definitions["Go to top"] = "始めに戻る";
 $definitions["Group name"] = "グループの名前";
-$definitions["group.administrator"] = "Administrator";
-$definitions["group.administrator.plural"] = "Administrators";
-$definitions["group.guest"] = "Guest";
-$definitions["group.guest.plural"] = "Guests";
-$definitions["group.member"] = "Member";
-$definitions["group.member.plural"] = "Members";
-$definitions["group.Moderator"] = "Moderator";
-$definitions["group.Moderator.plural"] = "Moderators";
-$definitions["group.suspended"] = "サスペンド";
+$definitions["group.administrator"] = "管理者";
+$definitions["group.administrator.plural"] = "管理者";
+$definitions["group.guest"] = "ゲスト";
+$definitions["group.guest.plural"] = "ゲスト";
+$definitions["group.member"] = "メンバー";
+$definitions["group.member.plural"] = "メンバー";
+$definitions["group.Moderator"] = "モデレーター";
+$definitions["group.Moderator.plural"] = "モデレーター";
+$definitions["group.suspended"] = "活動を禁止";
 $definitions["Groups can be used to categorize members and give them certain privileges."] = "各グループごとに権限の設定ができます。";
 $definitions["Groups"] = "グループ";
 $definitions["Guests can view the:"] = "ゲストはこれらが閲覧可能です:";
@@ -211,15 +211,15 @@ $definitions["Installed Skins"] = "インストールされたスキン:";
 $definitions["Installed skins"] = "インストールされたスキン:";
 $definitions["is %s"] = "is %s";
 
-$definitions["Joined"] = "接続済み";
-$definitions["just now"] = "ちょうど今";
+$definitions["Joined"] = "登録日";
+$definitions["just now"] = "今さっき";
 
 $definitions["Keep me logged in"] = "ログインしたままにする";
 $definitions["<strong>Keep this member's posts.</strong> All of this member's posts will remain intact, but will show [deleted] as the author."] = "<strong>このトピックを保持</strong>";
 
 $definitions["label.draft"] = "草案";
 $definitions["label.locked"] = "ロック";
-$definitions["label.ignored"] = "Ignored";
+$definitions["label.ignored"] = "非表示";
 $definitions["label.private"] = "プライベート";
 $definitions["label.sticky"] = "固定";
 $definitions["Labels"] = "ラベル";
@@ -563,18 +563,18 @@ $definitions["email.post.body"] = "<p><strong>%1\$s</strong> があなたが参�
 $definitions["gambit.author:"] = "トピック者:";
 $definitions["gambit.contributor:"] = "返信者:";
 $definitions["gambit.member"] = "メンバー";
-$definitions["gambit.myself"] = "myself";
+$definitions["gambit.myself"] = "自分の項目";
 $definitions["gambit.draft"] = "草案";
 $definitions["gambit.locked"] = "ロック";
 $definitions["gambit.order by newest"] = "新規トピック順で検索";
 $definitions["gambit.order by replies"] = "トピック数が多い順に検索";
-$definitions["gambit.private"] = "未公開";
+$definitions["gambit.private"] = "未公開の項目";
 $definitions["gambit.random"] = "ランダム";
 $definitions["gambit.reverse"] = "戻す";
 $definitions["gambit.starred"] = "お気に入り";
 $definitions["gambit.ignored"] = "ミュート中の項目";
 $definitions["gambit.sticky"] = "固定";
-$definitions["gambit.unread"] = "隠している項目";
+$definitions["gambit.unread"] = "アーカイブされた項目";
 $definitions["gambit.limit:"] = "限界:";
 
 // Aliases
@@ -582,31 +582,31 @@ $definitions["gambit.limit:"] = "限界:";
 // In other words, when you type "active today", the gambit system interprets it as if you typed "active 1 day".
 // The first of each pair, the alias, can be anything you want.
 // The second, however, must fit with the regular expression pattern defined below (more on that later.)
-$definitions["gambit.active today"] = "active today"; // what appears in the gambit cloud
-$definitions["gambit.active 1 day"] = "active 1 day"; // what it actually evaluates to
+$definitions["gambit.active today"] = "今日アーカイブされた項目"; // what appears in the gambit cloud
+$definitions["gambit.active 1 day"] = "1日以内にアーカイブされた項目"; // what it actually evaluates to
 
-$definitions["gambit.has replies"] = "has replies";
-$definitions["gambit.has >0 replies"] = "has >0 replies";
-$definitions["gambit.has >10 replies"] = "has >10 replies";
+$definitions["gambit.has replies"] = "返信された項目";
+$definitions["gambit.has >0 replies"] = "返信がある項目";
+$definitions["gambit.has >10 replies"] = "10件以上の返信がある項目";
 
-$definitions["gambit.has no replies"] = "has no replies";
-$definitions["gambit.has 0 replies"] = "has 0 replies";
+$definitions["gambit.has no replies"] = "返信なし";
+$definitions["gambit.has 0 replies"] = "返信がない項目";
 
-$definitions["gambit.dead"] = "dead";
-$definitions["gambit.active >30 day"] = "active >30 day";
+$definitions["gambit.dead"] = "未使用";
+$definitions["gambit.active >30 day"] = "30日より前にアーカイブされた項目";
 
 // Units of time
 // These are used in the active gambit.
 // ex. "[active] [>|<|>=|<=|last] 180 [second|minute|hour|day|week|month|year]"
-$definitions["gambit.second"] = "second";
-$definitions["gambit.minute"] = "miture";
-$definitions["gambit.hour"] = "hour";
-$definitions["gambit.day"] = "day";
-$definitions["gambit.week"] = "week";
-$definitions["gambit.month"] = "month";
-$definitions["gambit.year"] = "year";
-$definitions["gambit.last"] = "last"; // as in "active last 180 days"
-$definitions["gambit.active"] = "active"; // as in "active last 180 days"
+$definitions["gambit.second"] = "秒";
+$definitions["gambit.minute"] = "分";
+$definitions["gambit.hour"] = "時間";
+$definitions["gambit.day"] = "日";
+$definitions["gambit.week"] = "週";
+$definitions["gambit.month"] = "月";
+$definitions["gambit.year"] = "年";
+$definitions["gambit.last"] = "最終"; // as in "active last 180 days"
+$definitions["gambit.active"] = "有効"; // as in "active last 180 days"
 
 // Now the hard bit. This is a regular expression to test for the "active" gambit.
 // The group (?<a> ... ) is the comparison operator (>, <, >=, <=, or last).
